@@ -72,8 +72,6 @@ Step 2: Create ArgoCD Namespace:
 <br><br>
 <br>
 
-<br><br>
-<br>
 
 Step 3: Install ArgoCD
 
@@ -97,7 +95,7 @@ Forward port:
 Open in browser:
 https://localhost:8080
 
-<br<br><br>
+<br><br><br>
 <br>
 
 Step 5: Get ArgoCD Admin Password
