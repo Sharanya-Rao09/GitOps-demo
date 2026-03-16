@@ -102,8 +102,9 @@ Step 5: Get ArgoCD Admin Password
 
 Retrieve and decode the initial admin password in PowerShell:
 
-`$pass = kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}"
-[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($pass))`
+`$pass = kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}"`
+
+`[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($pass))`
 
 Username:
 admin
