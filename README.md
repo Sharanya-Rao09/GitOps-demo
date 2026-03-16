@@ -115,11 +115,12 @@ admin
 Step 6: Create GitOps Repository
 
 Create repository structure:
+<pre>
 GitOps-demo
 │
 └── k8s
     └── deployment.yaml
-
+</pre>
 Example deployment file:
 Make your Github repo with the same files
 
